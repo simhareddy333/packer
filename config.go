@@ -27,6 +27,8 @@ type config struct {
 	PluginMinPort              int
 	PluginMaxPort              int
 
+	// The following fields represent what builder/post-processors/provisioners
+	// will be available
 	Builders       map[string]string
 	PostProcessors map[string]string `json:"post-processors"`
 	Provisioners   map[string]string
