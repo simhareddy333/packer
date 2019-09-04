@@ -57,6 +57,7 @@ require (
 	github.com/hashicorp/go-uuid v1.0.1
 	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/hashicorp/hcl2 v0.0.0-20190821123243-0c888d1241f6
 	github.com/hashicorp/serf v0.8.2 // indirect
 	github.com/hashicorp/vault v1.1.0
 	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d
@@ -72,7 +73,6 @@ require (
 	github.com/klauspost/crc32 v0.0.0-20160114101742-999f3125931f // indirect
 	github.com/klauspost/pgzip v0.0.0-20151221113845-47f36e165cec
 	github.com/kr/fs v0.0.0-20131111012553-2788f0dbd169 // indirect
-	github.com/kylelemons/godebug v0.0.0-20170820004349-d65d576e9348 // indirect
 	github.com/linode/linodego v0.7.1
 	github.com/masterzen/azure-sdk-for-go v0.0.0-20161014135628-ee4f0065d00c // indirect
 	github.com/masterzen/simplexml v0.0.0-20190410153822-31eea3082786 // indirect
@@ -96,8 +96,6 @@ require (
 	github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32 // indirect
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
 	github.com/olekukonko/tablewriter v0.0.0-20180105111133-96aac992fc8b
-	github.com/onsi/ginkgo v1.7.0 // indirect
-	github.com/onsi/gomega v1.4.3 // indirect
 	github.com/oracle/oci-go-sdk v1.8.0
 	github.com/outscale/osc-go v0.0.1
 	github.com/packer-community/winrmcp v0.0.0-20180921204643-0fd363d6159a
@@ -122,12 +120,12 @@ require (
 	github.com/xanzy/go-cloudstack v0.0.0-20190526095453-42f262b63ed0
 	github.com/yandex-cloud/go-genproto v0.0.0-20190401174212-1db0ef3dce9b
 	github.com/yandex-cloud/go-sdk v0.0.0-20190402114215-3fc1d6947035
-	golang.org/x/crypto v0.0.0-20190424203555-c05e17bb3b2d
-	golang.org/x/net v0.0.0-20190424112056-4829fb13d2c6
+	github.com/zclconf/go-cty v1.1.0
+	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
+	golang.org/x/net v0.0.0-20190502183928-7f726cade0ab
 	golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
-	golang.org/x/sys v0.0.0-20190425145619-16072639606e
-	golang.org/x/text v0.3.1 // indirect
+	golang.org/x/sys v0.0.0-20190502175342-a43fa875dd82
 	golang.org/x/tools v0.0.0-20190606050223-4d9ae51c2468 // indirect
 	google.golang.org/api v0.4.0
 	google.golang.org/grpc v1.20.1
