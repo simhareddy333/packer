@@ -39,6 +39,6 @@ source "amazon-ebs" "aws-ubuntu-16.04" {
     }
 }
 
-source "vmware-iso" "vmw-ubuntu-12.04" {
-    // ...
+import_sources {
+    from = "packer.io/some/library/defining/sources"
 }
