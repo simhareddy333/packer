@@ -40,3 +40,17 @@ build {
     }
 
 }
+
+build {
+    // build an ami using the ami from the previous build block.
+    aws_ami_from "{{user `image_name`}}-aws-ubuntu-16.04" {
+    }
+
+    provisioners {
+        shell {
+            inline = [
+                "HOLY GUACAMOLE !"
+            ]
+        }
+    }
+}
