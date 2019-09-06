@@ -49,7 +49,7 @@ build {
     provisioners {
         shell {
             inline = [
-                "HOLY GUACAMOLE !"
+                "echo HOLY GUACAMOLE !"
             ]
         }
     }
